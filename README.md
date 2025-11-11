@@ -8,7 +8,7 @@ To make it work in linux on mac, just edit launch.json and tasks.json and remove
 ## Project Structure
 
 ```
-projectname           # By default, the name of this folder will be the project and executable name.
+c-template            # By default, the name of this folder will be the project and executable name.
 ├── src
 │   └── main.c        # Contains the main function of the C program
 ├── build
@@ -19,6 +19,8 @@ projectname           # By default, the name of this folder will be the project 
 ├── CMakeLists.txt    # CMake configuration file
 └── README.md         # Project documentation
 ```
+
+To create a new project with a different name just make a copy of `c-template` folder and rename it to the new project name.
 
 ## Build Directory Structure
 
