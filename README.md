@@ -1,7 +1,9 @@
 
 # c-template
 
-This project is a template for a simple C application that prints "Hello, World!" to the console.
+This project is a template for a simple C application that prints "Hello, World!" to the console. It works on Windows as long as you have gcc, cmake, and make installed, and your PATH environment variable includes the paths to these executables. To be able to debug your programs, you also need to install the official C/C++ Extension for Visual Studio Code.
+
+To make it work in linux on mac, just edit launch.json and tasks.json and remove all .exe extensions on filenames. This has not been tested.
 
 ## Project Structure
 
