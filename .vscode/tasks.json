@@ -39,7 +39,7 @@
         {
             "label": "Make Build (Debug)",
             "type": "shell",
-            "command": "make",
+            "command": "ninja",
             "args": [],
             "options": {
                 "cwd": "${workspaceFolder}/build/debug"
@@ -63,7 +63,7 @@
         {
             "label": "Make Build (Release)",
             "type": "shell",
-            "command": "make",
+            "command": "ninja",
             "args": [],
             "options": {
                 "cwd": "${workspaceFolder}/build/release"
